@@ -7,7 +7,7 @@ header {
   justify-content: center;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 4;
   box-shadow: .1rem .1rem .8rem var(--grey);
   position: absolute;
 }
@@ -278,6 +278,16 @@ header {
 
 /* DEPOSITION ============== */
 
+.depositions {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 .5rem;
+}
+
 .carrossel {
   width: 100%;
 }
@@ -357,6 +367,7 @@ header {
 }
 
 .carrossel-controls {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 3rem 0;
@@ -370,7 +381,7 @@ header {
   cursor: pointer;
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 0 5rem;
+  margin: 0;
   width: 4rem;
   height: 4rem;
   background-color: var(--red);

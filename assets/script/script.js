@@ -17,9 +17,9 @@ function clientWidth() {
 window.addEventListener("load", screenWidth)
 function screenWidth() {
   let largura = clientWidth()
-  let carrossel = document.querySelector(".container-depositions")
+  let carrossel = document.querySelector(".depositions")
   
-  if (largura > 768) {
+  if (largura > 480) {
     carrossel.style.display = "block"
     carrosel.setControls()
     carrosel.setNav()
